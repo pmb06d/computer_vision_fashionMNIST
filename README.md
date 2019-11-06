@@ -10,15 +10,15 @@ Grayscale pixels go from 0 to 255, these were normalized by dividing by 255 to m
 
 ## Pre-Processing
 There were three main pre-processing steps for the different algorithms:
-*	Grayscale pixels go from 0 to 255. The dataset was normalized by dividing by 255 to make all the numbers range from 0 to 1.
-*	Some pre-processing was done for the sklearn classifiers, namely flattening the numpy arrays from the 28 by 28 matrices to single vectors of length 784.
-*	The convolution neural networks need the input dataset to be 4 dimensional, the reshape command was used to transform the data. For example:
-  *	Original shape: (60000, 28, 28)
-  *	New shape: (60000, 28, 28, 1)
+* Grayscale pixels go from 0 to 255. The dataset was normalized by dividing by 255 to make all the numbers range from 0 to 1.
+* Some pre-processing was done for the sklearn classifiers, namely flattening the numpy arrays from the 28 by 28 matrices to single vectors of length 784.
+* The convolution neural networks need the input dataset to be 4 dimensional, the reshape command was used to transform the data. For example:
+  * Original shape: (60000, 28, 28)
+  * New shape: (60000, 28, 28, 1)
 
 The dataset was down sampled when training and testing the classic machine learning algorithms from Sklearn because they were taking an extremely long time to run on the full dataset.
-*	A random sample of 20,000 examples was used for training
-*	A random sample of 4,000 examples was used for testing
+* A random sample of 20,000 examples was used for training
+* A random sample of 4,000 examples was used for testing
 
 ## Algorithm Selection
 There were a total of 6 classic ML algorithms from Sklearn tested: 
@@ -82,11 +82,13 @@ Some notable examples:
 # Discussion and Conclusion
 *	According to my experiment with the Fashion MNST dataset, a convolution neural network is the best option for identifying the items of clothing in this dataset
 *	My best model was a CNN with 2 convolution layers (both with a rectified linear unit activation) and 2 pooling layers followed by one, large, fully connected layer and a dropout layer.
-  *	0.9142 on the Test set
+  * 0.9142 on the Test set
+  
 <p float="middle">
   <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig18.jpg" width="350" />
   <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig19.jpg" width="350" /> 
 </p>
+
 *	In my opinion, Deep Learning is ideal for computer vision problems not only because of its accuracy and its ability to model extremely complex decision boundaries, but because the features (individual pixels in an image) in these problems do not do that much for interpretation regardless.
 *	The generalization power in the neural networks and the ability to save and initialize a model from a file through a high level API like Keras, more than makes up for the slower compute time.
 *	Performance summary table
