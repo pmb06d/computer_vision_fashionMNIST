@@ -73,10 +73,10 @@ Printing out some of the mislabeled items from my best model (CNN #1) shows how 
 
 Some notable examples:
 <p float="middle">
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig14.jpg" width="200" />
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig15.jpg" width="200" /> 
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig16.jpg" width="200" />
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig17.jpg" width="200" />
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig14.jpg" width="100" />
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig15.jpg" width="100" /> 
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig16.jpg" width="100" />
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig17.jpg" width="100" />
 </p>
 
 # Discussion and Conclusion
