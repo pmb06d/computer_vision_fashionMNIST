@@ -45,8 +45,8 @@ There were also 4 neural networks built suing Keras. These used the following al
 A large (150) number of epochs was used originally to see what the impact would be before settling on a smaller number (25) for the final models, it seems the accuracy on the validation set plateaus fast
 
 <p float="middle">
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig6.jpg" width="300" />
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig7.jpg" width="300" /> 
-  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig8.jpg" width="300" />
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig6.jpg" width="250" />
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig7.jpg" width="250" /> 
+  <img src="https://github.com/pmb06d/computer_vision_fashionMNIST/blob/master/graphs/fig8.jpg" width="250" />
 </p>
 
